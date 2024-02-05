@@ -1,0 +1,143 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+}
+
+/*header begins here*/
+
+header {
+    background-color: #eeeeee;
+    padding: .1rem 2vw
+}
+
+header h1 {
+    margin: 0;
+    color: #EB6D34;
+    font-size: 2.4rem;
+    text-align: center;
+    
+}
+header h2 {
+    text-align: center;
+    color: #EB6D34;
+    font-size: 2.1rem;
+}
+
+/*start of the nav*/
+
+nav{
+    background-color: #EBCD93;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #EB6D34;
+    font-weight: 500;
+    display: block;
+    padding: .83rem 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+nav li.active a {
+    background-color: #EB6D34;
+    color: #EBCD93;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* stuff for the main */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+color: #EB6D34;
+}
+
+main nav ul {
+    background-color: #eeeeee;
+    list-style-type: none;
+}
+
+main h2 {
+    color: #EB6D34;
+    background-color: #eeeeee;
+    padding: 0 .5rem;
+}
+
+main p {
+    color: #eaaa64;
+    font-weight: 500;
+}
+main ol {
+    font-weight: 500;
+}
+
+main dl dt {
+    font-weight: 700;
+    color:  #EB6D34;
+}
+main dl dd {
+    color: #eaaa64;
+    font-size: 1.1rem
+}
+
+main ul {
+    list-style-type: upper-roman
+}
+
+main ul li {
+    line-height: 175%;
+    margin-bottom: .5rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #eeeeee;
+    font-weight: 500;
+    padding: .5rem;
+    width: 16rem;
+    border: 1px solid #EB6D34;
+    border-radius: 3px;
+}
+
+main a {
+    color: #EB6D34;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #f0290f;
+}
+
+/* Footer begins */
+
+footer {
+    background-color: #eeeeee;
+    text-align: center;
+    color: #EB6D34;
+    padding: 1.2rem 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f0290f;
+}
