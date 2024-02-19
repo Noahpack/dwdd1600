@@ -1,0 +1,223 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+}
+
+/*header begins here*/
+
+header {
+    background-color: #eeeeee;
+    padding: .1rem 2vw
+}
+
+header h1 {
+    margin: 0;
+    color: #EB6D34;
+    font-size: 2.4rem;
+    text-align: center;
+    
+}
+header h2 {
+    text-align: center;
+    color: #EB6D34;
+    font-size: 2.1rem;
+}
+
+/*start of the nav*/
+
+nav{
+    background-color: #EBCD93;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #EB6D34;
+    font-weight: 500;
+    display: block;
+    padding: .83rem 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+nav li.active a {
+    background-color: #EB6D34;
+    color: #EBCD93;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* stuff for the main */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+color: #EB6D34;
+}
+
+main nav ul {
+    background-color: #eeeeee;
+    list-style-type: none;
+}
+
+main h2 {
+    color: #EB6D34;
+    background-color: #eeeeee;
+    padding: 0 .5rem;
+    clear: both;
+}
+
+main p {
+    color: #eaaa64;
+    font-weight: 500;
+}
+main ol {
+    font-weight: 500;
+}
+
+main dl dt {
+    font-weight: 700;
+    color:  #EB6D34;
+}
+main dl dd {
+    color: #eaaa64;
+    font-size: 1.1rem
+}
+
+main ul {
+    list-style-type: upper-roman
+}
+
+main ul li {
+    line-height: 175%;
+    margin-bottom: .5rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #eeeeee;
+    font-weight: 500;
+    padding: .5rem;
+    width: 16rem;
+    border: 1px solid #EB6D34;
+    border-radius: 3px;
+}
+
+main a {
+    color: #EB6D34;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #f0290f;
+}
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+div.workouts {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.workouts figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.workouts figcaption {
+    text-align: center;
+    color: #EB6D34;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.newsletter fieldset {
+    border: 1px solid #eaaa64;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+.newsletter legend {
+    color: #eaaa64;
+
+}
+
+.newsletter label {
+    margin: .5rem;
+}
+
+.newsletter label, .newsletter select, .newsletter [type=text], .newsletter [type=tel], .newsletter [type=email], .newsletter textarea {
+    display: block;
+}
+
+.newsletter [type=text], .newsletter [type=tel], .newsletter [type=email], .newsletter textarea{
+    border: solid 1px #999;
+    padding: .3rem;
+    width: 240px;
+    border-radius: .2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+.newsletter select {
+    border: solid 1px #999;
+    padding: .2rem;
+    width: 150px;
+    border-radius: .2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+.newsletter :required {
+   background-color: rgba(150,20,20,0.1);
+}
+
+.newsletter [type=submit] {
+    background-color: #EB6D34;
+    color:white;
+    border: none;
+    padding: .2rem 1.8rem;
+    border-radius: 20px;
+    margin: 1rem 0 0 1vw;
+    font-size: 16px
+}
+/* Footer begins */
+
+footer {
+    background-color: #eeeeee;
+    text-align: center;
+    color: #EB6D34;
+    padding: 1.2rem 0;
+    clear: both;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f0290f;
+}
