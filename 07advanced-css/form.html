@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>How To Gym: Home</title>
+        <link rel="stylesheet" href="gym.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Learn how to workout with basic to advanced movements">
+        <meta name="author" content="Noah Pack">
+    </head>
+    <body>
+        <header>
+            <img src="images/gymlogo.png" alt="site logo" width="100" height="100">
+            <div>
+            <h1>How to Gym</h1>
+            <h2>A guide for new or experienced gym goers</h2>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="get-started.html">Get Started</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li class="active"><a href="form.html">Newsletter</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!--Start of the newsletter content-->
+            <h1>Join our Newsletter!</h1>
+            <p>Recieve weekly, bi weekly, or monthly workouts, nutrition, and much more information.</p>
+            
+        <form method="get" class="newsletter" action="thanks.html">
+        <fieldset>
+            <legend>Customer Information</legend>
+        <label>Name<input type="text" name="fname" required></label>
+            <label>Address<input type="text" name="lname" required></label>
+             <label>What Region?
+            <select name="region">
+            <option value="none">Please Select</option>
+            <option value="west">West (2 day shipping)</option>
+            <option value="midwest">Midwest (3-5 day shipping)</option>
+            <option value="south">South (3-6 day shipping)</option>
+            <option value="north">North (5-8 day shipping)</option>
+            </select>
+            </label>
+        <label>Cell Number (optional)<input type="tel" name="phone" placeholder="000-000-0000"></label>
+        <label>Email <input type="email" name="email" required placeholder="howtogym@gmail.com"></label>
+            
+        </fieldset>   
+            
+        <fieldset>
+        <legend>Subscription Tier</legend>
+            <label><input type="radio" name="tier" value="montly">Tier 1: Monthly</label> 
+        <label><input type="radio" name="tier" value="biWeekly">Tier 2: Bi Weekly</label> 
+        <label><input type="radio" name="tier" value="weekly">Tier 3: Weekly</label> 
+        </fieldset>
+            
+        <fieldset>
+        <legend>Information included:</legend>
+        <label><input type="checkbox" name="workouts" value="yes">Workouts</label>
+        <label><input type="checkbox" name="nutrition" value="yes">Nutrition</label>
+        <label><input type="checkbox" name="news" value="yes">(New!) Gym News</label>
+        <label><input type="checkbox" name="facts" value="yes">Fun facts!</label>
+            
+        </fieldset>
+            
+        <label>Comments
+            <textarea name="comments"></textarea>    
+        </label>
+        <input type="submit" value="Send Newsletter Request">
+        </form>
+            
+        </main>
+        <footer>
+            <p>&copy; 2024 &bull; Noah Pack &bull; <a href="mailto:noahpack17@gmail.com">Email Us</a></p>
+        </footer>
+    </body>
+
+
+
+</html>
